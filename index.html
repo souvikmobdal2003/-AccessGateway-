@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccessGateway</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="Log_In">
+    <h1>Log In</h1>
+    <form >
+        <div class="input-icon">
+            <i class="fa-solid fa-user"></i>
+        <input type="text" class="input-fild"  name="username" placeholder="Username" required>
+        </div>
+        <br>
+        <div class="input-icon">
+            <i class="fa-solid fa-lock fa-rotate-190"></i>
+        <input type="password" class="input-fild" name="password" placeholder="Password" aria-placeholder="Show" required>
+         <span class="show-password">Show</span>
+        </div>
+    <br>
+    <div class="check3">
+    <input type="checkbox" id="remember-me" class="check" >
+    <label for="remember-me" class="remember-me-label">Remember me</label>
+    <a href="#" class="forgot-password" >Forgot Password</a>
+    <br>
+    </div>
+    <button class="bt1">Log In</button>
+</form>
+<p>or Sign in with</p>
+<i class="fa-brands fa-facebook-f o" style="color: #74C0FC;"></i>
+<i class="fa-brands fa-twitter o" style="color: #63E6BE;"></i>
+<i class="fa-brands fa-google-plus-g o" style="color: #db0a0a;"></i>
+<i class="fa-brands fa-instagram o" style="color: #cd486b ;"></i>
+<p>Don't have an account ? <a href="#Sign_Up">Sign Up</a></p>
+</div>
+<div id="Sign_Up">
+<h1>Sign Up</h1>
+<form>
+    <div class="input">
+    <input type="text" name="First Name" placeholder="First Name" required>
+    <input type="text" name="Last Name" placeholder="Last Name" required>
+</div>
+    <br>
+    <div class="input-a">
+    <input type="gmail" placeholder="Email" required>
+    <br>
+    <input type="password" name="password" placeholder="Password" aria-placeholder="Show">
+    <br>
+    <input type="Confim Password" name="Confim Password" placeholder="Confim Password" aria-placeholder="Show">
+    <br>
+    </div>
+    <div class="check2">
+    <input type="checkbox" >I agree to the <a href="#">Privacy</a> and <a href="#">Policy</a>
+    </div>
+    <br>
+    
+    <button class="bt2">Sign Up</button>
+    <div class="p2">
+    <p>Already have an account ? <a href="#Log_In">Log In</a></p>
+    </div>
+</form>
+</div>
+
+</body>
+</html>
